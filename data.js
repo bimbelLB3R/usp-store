@@ -135,7 +135,7 @@ export const users = [
     logo: 'yahoo.png',
     avatar: 'user1.jpeg',
     comment:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.',
+      'Kami disambut dengan ramah oleh pemilik, terimakasih untuk kerjasamanya',
     name: 'Harold Brown',
     title: 'Executive Manager',
   },
@@ -143,8 +143,7 @@ export const users = [
     id: 2,
     logo: 'google.png',
     avatar: 'user2.jpeg',
-    comment:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.',
+    comment: 'Hasil sablonnya rapi dan lembut',
     name: 'Anna Taylor',
     title: 'HR Manager',
   },
@@ -153,7 +152,7 @@ export const users = [
     logo: 'facebook.png',
     avatar: 'user3.jpeg',
     comment:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.',
+      'Kami pesan 75 pcs kaos dan sablon. Alhamdulillah dalam dua hari selesai,',
     name: 'James Garry',
     title: 'UI Designer',
   },
