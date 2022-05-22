@@ -22,8 +22,8 @@ export default function Home({ services }) {
         />
         <meta
           property="og:image"
-          itemProp="image"
-          content="https://scontent.fbpn4-1.fna.fbcdn.net/v/t1.6435-9/51204976_399218204161191_4920827477946793984_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6svECc43Ic8AX-XMpLh&_nc_ht=scontent.fbpn4-1.fna&oh=00_AT9ilimDq3CpTy0FRQ4vrjQWcETt7C8y5BZMf7TRyRfrdw&oe=62B197DE"
+          itemprop="image"
+          content="https://scontent.fbpn4-1.fna.fbcdn.net/v/t1.6435-9/120727099_803928870356787_5429006033759236755_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9267fe&_nc_ohc=QUyRB3Elu7MAX-eaQMx&_nc_ht=scontent.fbpn4-1.fna&oh=00_AT-5j_z95_y9xxKFA88PA9DjiAQ17cinQcm7jDS9rCGkaQ&oe=62AE6D69"
         />
         <link rel="icon" href="/usp-logo.png" />
       </Head>
