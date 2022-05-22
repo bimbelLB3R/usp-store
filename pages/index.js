@@ -14,6 +14,17 @@ export default function Home({ services }) {
           name="description"
           content="Jual Kaos Polos dan sablonnya. Wilayah Tabalong dan sekitarnya."
         />
+        <meta property="og:title" content="Hayuk Kak diorder" />
+        <meta property="og:url" content="https://usp-store.vercel.app" />
+        <meta
+          property="og:description"
+          content="Jual Kaos Polos dan sablonnya. Wilayah Tabalong dan sekitarnya."
+        />
+        <meta
+          property="og:image"
+          itemProp="image"
+          content="https://web.facebook.com/UwaisScreenPrinting/photos/a.399216410828037/399218194161192/"
+        />
         <link rel="icon" href="/usp-logo.png" />
       </Head>
       <Intro />
