@@ -136,16 +136,16 @@ export const users = [
     avatar: 'user1.jpeg',
     comment:
       'Kami disambut dengan ramah oleh pemilik, terimakasih untuk kerjasamanya',
-    name: 'Harold Brown',
-    title: 'Executive Manager',
+    name: 'Upik',
+    title: 'Barabai',
   },
   {
     id: 2,
     logo: 'google.png',
     avatar: 'user2.jpeg',
     comment: 'Hasil sablonnya rapi dan lembut',
-    name: 'Anna Taylor',
-    title: 'HR Manager',
+    name: 'Anna',
+    title: 'Balangan',
   },
   {
     id: 3,
@@ -153,7 +153,7 @@ export const users = [
     avatar: 'user3.jpeg',
     comment:
       'Kami pesan 75 pcs kaos dan sablon. Alhamdulillah dalam dua hari selesai,',
-    name: 'James Garry',
-    title: 'UI Designer',
+    name: 'Ahmad',
+    title: 'Desa Tanta, Tanjung,Tabalong',
   },
 ];
