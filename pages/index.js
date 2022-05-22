@@ -23,7 +23,7 @@ export default function Home({ services }) {
         <meta
           property="og:image"
           itemProp="image"
-          content="https://web.facebook.com/UwaisScreenPrinting/photos/a.399216410828037/399218194161192/"
+          content="https://scontent.fbpn4-1.fna.fbcdn.net/v/t1.6435-9/51204976_399218204161191_4920827477946793984_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6svECc43Ic8AX-XMpLh&_nc_ht=scontent.fbpn4-1.fna&oh=00_AT9ilimDq3CpTy0FRQ4vrjQWcETt7C8y5BZMf7TRyRfrdw&oe=62B197DE"
         />
         <link rel="icon" href="/usp-logo.png" />
       </Head>
