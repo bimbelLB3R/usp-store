@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Circle from './Circle';
 import Link from 'next/link';
+import Carousel from './Carousel';
 
 const Intro = () => {
   return (
@@ -38,7 +39,7 @@ const Intro = () => {
 
         <div className="relative overflow-hidden">
           <Circle backgroundColor="#C026D3" right="-50vh" />
-          <Image
+          {/* <Image
             src="/images/kaos.avif"
             alt="image"
             width="100%"
@@ -46,7 +47,8 @@ const Intro = () => {
             objectFit="cover"
             layout="responsive"
             className=""
-          />
+          /> */}
+          <Carousel />
         </div>
       </div>
     </div>
