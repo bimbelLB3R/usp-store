@@ -2,6 +2,12 @@ import React, { useState } from 'react';
 import { BsArrowLeftSquare } from 'react-icons/bs';
 import { BsArrowRightSquare } from 'react-icons/bs';
 import Image from 'next/image';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import Link from 'next/link';
+
 const dataSlider = [
   {
     id: 1,
@@ -31,7 +37,21 @@ const Carousel = () => {
     setSlide(slide === 0 ? length - 1 : slide - 1);
   };
   return (
-    <div className="z-50 w-full h-screen mx-auto   flex justify-center items-center ">
+    <div className="z-50 w-full h-screen mx-auto   flex justify-center items-center relative">
+      <div className="absolute z-50 top-4 text-gray-50 flex items-center space-x-6">
+        <Link href="https://wa.me/+6281392552459">
+          <WhatsAppIcon className="text-5xl opacity-50 cursor-pointer hover:scale-150 transition ease-in-out duration-600" />
+        </Link>
+        <Link href="https://www.instagram.com/uwais_screenprinting/">
+          <InstagramIcon className="text-5xl opacity-50 cursor-pointer hover:scale-150 transition ease-in-out duration-600" />
+        </Link>
+        <Link href="https://web.facebook.com/UwaisScreenPrinting/">
+          <FacebookIcon className="text-5xl opacity-50 cursor-pointer hover:scale-150 transition ease-in-out duration-600" />
+        </Link>
+        <Link href="https://www.youtube.com/channel/UCMSBFkjsGBSEFI4AF7pcDsg/videos">
+          <YouTubeIcon className="text-5xl opacity-50 cursor-pointer  hover:scale-150 transition ease-in-out duration-600" />
+        </Link>
+      </div>
       {dataSlider.map((item, index) => (
         <div
           className={index === slide ? 'opacity-100' : 'opacity-0'}
@@ -49,11 +69,11 @@ const Carousel = () => {
               />
               <BsArrowLeftSquare
                 onClick={prevSlide}
-                className="absolute top-[50%] text-5xl text-fuchsia-600 cursor-pointer left-10 z-50"
+                className="absolute top-[50%] text-5xl text-fuchsia-600/50 cursor-pointer left-10 z-50"
               />
               <BsArrowRightSquare
                 onClick={nextSlide}
-                className="absolute top-[50%] text-5xl text-fuchsia-600 cursor-pointer right-10 z-50"
+                className="absolute top-[50%] text-5xl text-fuchsia-600/50 cursor-pointer right-10 z-50"
               />
             </div>
           )}

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Circle from './Circle';
 import Link from 'next/link';
 import Carousel from './Carousel';
+import RoomIcon from '@mui/icons-material/Room';
 
 const Intro = () => {
   return (
@@ -29,9 +30,12 @@ const Intro = () => {
             </div>
             <div>
               <Link href="https://g.page/UWAIS_SP?share">
-                <button className="bg-green-400 rounded p-4 mt-10 font-semibold">
-                  FIND US
-                </button>
+                <div className="flex items-center justify-center">
+                  <div>
+                    <RoomIcon className=" mt-10 text-8xl text-fuchsia-400 hover:scale-110 transition ease-in-out duration-600" />
+                    <p className="w-full text-center underline">Find Us</p>
+                  </div>
+                </div>
               </Link>
             </div>
           </div>
