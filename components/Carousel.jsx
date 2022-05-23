@@ -40,16 +40,16 @@ const Carousel = () => {
     <div className="z-50 w-full h-screen mx-auto   flex justify-center items-center relative">
       <div className="absolute z-50 top-4 text-gray-50 flex items-center space-x-6">
         <Link href="https://wa.me/+6281392552459">
-          <WhatsAppIcon className="text-5xl opacity-50 cursor-pointer hover:scale-150 transition ease-in-out duration-600" />
+          <WhatsAppIcon className="text-6xl opacity-50 cursor-pointer hover:scale-150 transition ease-in-out duration-600" />
         </Link>
         <Link href="https://www.instagram.com/uwais_screenprinting/">
-          <InstagramIcon className="text-5xl opacity-50 cursor-pointer hover:scale-150 transition ease-in-out duration-600" />
+          <InstagramIcon className="text-6xl opacity-50 cursor-pointer hover:scale-150 transition ease-in-out duration-600" />
         </Link>
         <Link href="https://web.facebook.com/UwaisScreenPrinting/">
-          <FacebookIcon className="text-5xl opacity-50 cursor-pointer hover:scale-150 transition ease-in-out duration-600" />
+          <FacebookIcon className="text-6xl opacity-50 cursor-pointer hover:scale-150 transition ease-in-out duration-600" />
         </Link>
         <Link href="https://www.youtube.com/channel/UCMSBFkjsGBSEFI4AF7pcDsg/videos">
-          <YouTubeIcon className="text-5xl opacity-50 cursor-pointer  hover:scale-150 transition ease-in-out duration-600" />
+          <YouTubeIcon className="text-6xl opacity-50 cursor-pointer  hover:scale-150 transition ease-in-out duration-600" />
         </Link>
       </div>
       {dataSlider.map((item, index) => (
