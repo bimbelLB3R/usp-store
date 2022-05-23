@@ -32,7 +32,10 @@ const Intro = () => {
               <Link href="https://g.page/UWAIS_SP?share">
                 <div className="flex items-center justify-center">
                   <div>
-                    <RoomIcon className=" mt-10 text-8xl text-fuchsia-400 hover:scale-110 transition ease-in-out duration-600" />
+                    <RoomIcon
+                      sx={{ fontSize: 60 }}
+                      className=" mt-10 text-8xl text-fuchsia-400 hover:scale-110 transition ease-in-out duration-600"
+                    />
                     <p className="w-full text-center underline">Find Us</p>
                   </div>
                 </div>
